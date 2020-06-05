@@ -49,7 +49,7 @@ public class ProductServiceRest{
 		return lista;
 	}
 	
-	@GetMapping("/product/{id}")
+	@GetMapping("/producto/{id}")
 	public Product getProduct(@PathVariable(value = "id") Long id) {
 		Product pro = null;
 		try {
